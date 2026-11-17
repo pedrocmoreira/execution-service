@@ -1,5 +1,9 @@
 # Execution Service — Execução e Produção
 
+[![CI/CD](https://github.com/pedrocmoreira/execution-service/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/pedrocmoreira/execution-service/actions/workflows/ci-cd.yml)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=pedrocmoreira_execution-service&metric=alert_status)](https://sonarcloud.io/project/overview?id=pedrocmoreira_execution-service)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pedrocmoreira_execution-service&metric=coverage)](https://sonarcloud.io/project/overview?id=pedrocmoreira_execution-service)
+
 Microsserviço da **oficina/produção**: gerencia a **fila de execução** das OS, o **diagnóstico** e o **reparo**
 feitos pelo mecânico, o **estoque de peças** (reserva/baixa) e **comunica a finalização** ao OS Service.
 

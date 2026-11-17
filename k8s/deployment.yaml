@@ -21,7 +21,7 @@ spec:
       containers:
         - name: execution-service
           # A pipeline de CI/CD substitui a imagem com "kubectl set image" (tag = SHA do commit)
-          image: ghcr.io/OWNER/execution-service:latest
+          image: ghcr.io/pedrocmoreira/execution-service:latest
           imagePullPolicy: IfNotPresent
           ports: [{containerPort: 8083}]
           envFrom:
